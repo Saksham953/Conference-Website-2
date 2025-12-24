@@ -1,0 +1,28 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 15vw;
+    align-items: center;
+}
+
+.description{
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.name{
+    font-weight: 500;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.mail{
+    font-size: 20px;
+    color: #091B8F;
+}
+
+.phone{
+    font-size: 20px;
+}

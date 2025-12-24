@@ -1,0 +1,44 @@
+[
+    {
+        "name" : "Dr. Renu Vig - Chief Guest",
+        "description" : "Professor (Dr.) Renu Vig is discharging the responsibilities of Vice-Chancellor of Panjab University since Jan 16, 2023. Prior to this, she has held several key positions at Panjab University-Dean University Instruction, Dean Research, Dean Faculty of Engineering & Technology, and Director UIET. With a teaching and research experience of more than 35 years, Professor Renu Vig holds a Ph.D. in Engineering and Technology in the area of Artificial Intelligence and Neural Networks.",
+        "image" : "/speakers/vc-pu.jpg",
+        "link" : "/"
+    },
+    {
+        "name" : "Mr. Diparva Lakra",
+        "description": "Sh. Diprava Lakra is  B.Tech.  in Electrical Engineering from the Indian Institute of Technology, Kharagpur. He belongs to the State of Orissa .He is  an IAS Officer of the 2005 batch and  began his career as Sub Divisional Magistrate, Dhuri, and had also been served as a Special Secretary (Home), Director Welfare Department, Punjab.He was posted as Additional Chief Electoral Officer, Punjab, before being posted here.",
+        "image" : "/speakers/ias officer.jpg",
+        "link" : "/"
+    },
+    {
+        "name" : "Prof. (Dr.) Karmeshu",
+        "description": "Prof. (Dr.) Karmeshu is Professor, School of Computer & Systems Sciences, Jawaharlal Nehru University (JNU) New Delhi since 1986. Prior to joining JNU, he taught in the Department of Systems Engineering at the University of Waterloo, Canada, and the University of Mexico (UAM) and UNAM, Mexico. He has delivered several invited seminars/lectures in India and other countries.His current areas of research interests are Performance Modelling of Communication Networks and Wireless Systems; Statistical Modelling of Ultrasound Images; Computational Neuroscience; and Stochastic Models of Social Systems.",
+        "image" : "/speakers/goh 2.jpg",
+        "link" : "/"
+    },
+    {
+        "name" : "Prof. (Dr.) Bhola Ram Gurjar",
+        "description": "Prof. (Dr.) Bhola Ram Gurjar is currently Director at National Institute of Technical Teachers Training and Research (NITTTR), Chandigarh. He holds a PhD in the area of Environmental Risk Analysis from India's premier technological institution IIT Delhi followed by Postdoctoral research on air pollution and its local-toregional-to-global impacts at Max Planck Institute in Mainz, Germany. He is on lien from IIT Roorkee where he has been a Professor (HAG) of Environmental Engineering in Civil Engineering Department and a Joint Faculty in Centre of Excellence for Transportation Systems. ",
+        "image" : "/speakers/goh 3.jpg",
+        "link" : "/"
+    },
+    {
+        "name" : "Prof. (Dr.) Karmeshu",
+        "description" : "Prof. (Dr.) Karmeshu is Professor, School of Computer & Systems Sciences, Jawaharlal Nehru University (JNU) New Delhi since 1986. Prior to joining JNU, he taught in the Department of Systems Engineering at the University of Waterloo, Canada, and the University of Mexico (UAM) and UNAM, Mexico. He has delivered several invited seminars/lectures in India and other countries.His current areas of research interests are Performance Modelling of Communication Networks and Wireless Systems; Statistical Modelling of Ultrasound Images; Computational Neuroscience; and Stochastic Models of Social Systems.",
+        "image" : "/speakers/goh 2.jpg",
+        "link" : "/"
+    },
+    {
+        "name" : "Dr Sachin Bhardwaj",
+        "description" : "Dr. Sachin Bhardwaj is a lecturer (Docent) and International Relations Team Member at Fontys University of Applied Sciences in the Netherlands, involved in ICT and fostering international academic collaborations, particularly with Indian universities like The NorthCap University (NCU), focusing on smart spaces, ubiquitous computing, and industry-relevant skills for students. He's an expert in smart space research and has published on semantic interoperability in smart environments. ",
+        "image" : "/speakers/sachin.jpeg",
+        "link" : "/"
+    },
+    {
+        "name" : "Larry C. Pickett ",
+        "description" : "Mr. Larry C. Pickett leads the Project Management Centre of Excellence at Carnegie Mellon University (CMU), Pittsburgh, Pennsylvania, United States. With over two decades of global experience, Mr. Pickett has held senior roles at PNC Bank, TeleTech Holdings, and Highmark, Inc., leading initiatives across the United States, Europe, Asia, Latin America, the Philippines, and Canada. His work has consistently delivered quality improvement, operational excellence, and measurable return on investment.",
+        "image" : "/speakers/Larry C_ Pickett.avif",
+        "link" : "/"
+    }
+]
