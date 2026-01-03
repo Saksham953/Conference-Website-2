@@ -1,0 +1,85 @@
+/* Wrapper to center card */
+.card-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main card */
+.card-container {
+  display: flex;
+  width: 70vw;
+  gap: 30px;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Image container */
+.speaker-image {
+  position: relative;
+  width: 260px;
+  aspect-ratio: 1 / 1;     /* 🔑 locks perfect square */
+  flex-shrink: 0;
+}
+
+/* Image itself */
+.person_image {
+  object-fit: cover;      /* 🔑 prevents distortion */
+  border-radius: 50%;
+}
+
+/* Info section */
+.person_info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 18px;
+}
+
+/* Name */
+.person_name {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/* Description */
+.person_description {
+  line-height: 1.6;
+}
+
+/* Tablet & Mobile */
+@media only screen and (max-width: 900px) {
+  .card-container {
+    flex-direction: column;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .speaker-image {
+    width: 220px;
+  }
+
+  .person_name {
+    font-size: 26px;
+  }
+
+  .person_info {
+    gap: 18px;
+    font-size: 16px;
+  }
+}
+
+/* Small phones */
+@media only screen and (max-width: 480px) {
+  .speaker-image {
+    width: 180px;
+  }
+
+  .person_name {
+    font-size: 22px;
+  }
+
+  .person_description {
+    font-size: 15px;
+  }
+}

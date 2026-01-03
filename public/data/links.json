@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Home",
+        "link": "/"
+    },
+    {
+        "name":"About us",
+        "link": "/About"
+    },
+    {
+        "name": "Committee",
+        "link": "/Committee"
+    },
+    {
+        "name": "Call for papers",
+        "link": "/Call_for_papers"
+    },
+    {
+        "name": "Important Dates",
+        "link": "/Important_dates"
+    },
+    {
+        "name": "Submissions",
+        "link": "/Submissions"
+    },
+    {
+        "name": "First Conference",
+        "link": "https://chandigarh.nmims.edu/iictds-2025/"
+    },
+    {
+        "name": "Registration",
+        "link": "/Registration"
+    },
+    {
+        "name": "Publisher",
+        "link": "/Publisher"
+    },
+    {
+        "name": "Speakers",
+        "link": "/Speaker"
+    },
+    {
+        "name": "Contact Us",
+        "link": "/Contact"
+    },
+    {
+        "name": "Glimpse@NMIMS",
+        "link": "/Glimpse"
+    }
+]

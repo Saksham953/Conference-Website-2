@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: light;
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.space {
+    padding: 5px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60vw;
+}
+
+.title_paper {
+    font-size: 30px;
+    font-weight: 600;
+    color: #091B8F;
+}
+
+.content {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.responsive-map {
+    overflow: hidden;
+    height: 500px;
+    width: 60vw;
+    margin: auto;
+    position: relative;
+}
+
+.responsive-map iframe {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.sub-heading {
+    color: #091B8F;
+    font-size: 22px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.center {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+/* Payment Link Styles */
+.payment-link-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.payment-link {
+    display: inline-block;
+    background-color: #CF0015;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+}
+
+.payment-link:hover {
+    background-color: #091B8F;
+    transform: translateY(-2px);
+}
+
+.payment-link:active {
+    transform: translateY(0);
+}
+
+html {
+    scrollbar-gutter: stable;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .body {
+        width: 85vw;
+    }
+
+    .title_paper {
+        font-size: 24px;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+
+    .sub-heading {
+        font-size: 20px;
+    }
+
+    .payment-link {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .responsive-map {
+        width: 85vw;
+        height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .body {
+        width: 90vw;
+    }
+
+    .title_paper {
+        font-size: 20px;
+    }
+
+    .content {
+        font-size: 14px;
+    }
+
+    .sub-heading {
+        font-size: 18px;
+    }
+
+    .payment-link {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .responsive-map {
+        width: 90vw;
+        height: 300px;
+    }
+}
