@@ -1,0 +1,184 @@
+/* ===============================
+   NAVBAR CONTAINER
+================================ */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* LEFT ALIGN CONTENT */
+    
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px;
+
+    position: relative;
+    background-color: #ffffff;
+
+    min-height: 70px;
+    z-index: 9999;
+    box-sizing: border-box;
+}
+
+/* ===============================
+   LOGO
+================================ */
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 15px; /* SMALL GAP BETWEEN LOGO & LINKS */
+}
+
+.logo img {
+    max-height: 55px;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* ===============================
+   LINKS (DESKTOP)
+================================ */
+
+.links {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;  /* SMALLER GAP BETWEEN MENU ITEMS */
+    white-space: nowrap;
+
+    position: relative;
+    z-index: 9999;
+    flex-wrap: nowrap;
+}
+
+/* Individual link */
+.link {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;   /* reduced font size */
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: red;
+}
+
+/* ===============================
+   COMMITTEE DROPDOWN
+================================ */
+
+.link-container {
+    position: relative;
+}
+
+.committee-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    min-width: 200px;
+    background-color: #ffffff;
+
+    padding: 6px 0;
+    margin-top: 6px;
+
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+    display: none;     /* hidden by default */
+    flex-direction: column;
+    gap: 2px;
+
+    z-index: 10000;
+}
+
+.link-container:hover .committee-options {
+    display: flex;     /* show on hover */
+}
+
+.committee-link {
+    padding: 8px 14px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    white-space: nowrap;
+}
+
+.committee-link:hover {
+    background-color: #f3f3f3;
+    color: red;
+}
+
+/* ===============================
+   HAMBURGER MENU (for mobile)
+================================ */
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    margin-left: auto; /* pushes hamburger to the right */
+}
+
+.bar {
+    width: 24px;
+    height: 3px;
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+/* ===============================
+   RESPONSIVE (MOBILE)
+================================ */
+
+@media (max-width: 1200px) {
+
+    .hamburger {
+        display: flex;
+    }
+
+    /* NAVBAR now space-between for mobile menu toggle */
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .links {
+        position: absolute;
+        top: 70px;
+        right: 16px;
+
+        flex-direction: column;
+        align-items: flex-start;
+
+        gap: 12px;
+        padding: 18px;
+
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+        transform: translateX(120%);
+        opacity: 0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+
+        z-index: 9999;
+    }
+
+    .links.open {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    .committee-options {
+        position: static;
+        box-shadow: none;
+        border: none;
+        padding-left: 10px;
+        margin-top: 6px;
+        z-index: auto;
+    }
+}

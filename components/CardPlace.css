@@ -1,0 +1,28 @@
+.CardPlace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw ;
+    flex-direction: column;
+}   
+
+.image img{
+    height: 250px;
+    width: 20vw
+}
+
+.place-name{
+    font-weight: 600;
+    font-size: 20px;
+    color: #09558f;
+}
+
+@media only screen and (max-width: 1200px) {
+    .CardPlace{
+        width: 50vw;
+    }
+
+    .image img{
+        width: 50vw
+    }
+}

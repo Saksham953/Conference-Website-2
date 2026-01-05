@@ -1,0 +1,239 @@
+[
+  {
+    "sno": 1,
+    "sessionId": "IICTDS.001",
+    "trackId": "1",
+    "topic": "Intelligent Enterprises: Leveraging AI and Analytics for Decision Support and Future Management Trends across Education and Industry",
+    "chairperson": "Dr. Deepa Guleria, Assistant Professor, School of Commerce, NMIMS Chandigarh Campus",
+    "coChairs": "Dr. Sharif Mohd., Assistant Professor,",
+    "profile": "",
+    "organization": [
+      "School of Commerce, NMIMS Chandigarh Campus, Department of Finance, NDIM New Delhi"
+    ],
+    "email": [
+      "deepa.guleria@nmims.edu"
+    ]
+  },
+  {
+    "sno": 2,
+    "sessionId": "IICTDS.002",
+    "trackId": "2",
+    "topic": "AI and Data-Driven Innovations for Smart and Sustainable Societal Applications",
+    "chairperson": "Dr. Akhil Gupta",
+    "coChairs": "",
+    "profile": "",
+    "organization": [
+      "Symbiosis Institute of Technology, Nagpur, Symbiosis International (Deemed) University, Pune, Maharashtra"
+    ],
+    "email": [
+      "akhil.gupta@sitnagpur.siu.edu.in"
+    ]
+  },
+  {
+    "sno": 3,
+    "sessionId": "IICTDS.003",
+    "trackId": "3",
+    "topic": "Machine Learning for Agriculture, Healthcare, and Multimedia",
+    "chairperson": "Dr.Chirag Sharma",
+    "coChairs": "",
+    "profile": "",
+    "organization": [
+      "Lovely Professional University"
+    ],
+    "email": [
+      "chirag.16717@lpu.co.in"
+    ]
+  },
+  {
+    "sno": 4,
+    "sessionId": "IICTDS.004",
+    "trackId": "4",
+    "topic": "Machine Learning and Deep Learning Approaches in Data Analysis and Image Processing",
+    "chairperson": "Dr. Ajay Kumar",
+    "coChairs": "",
+    "profile": "",
+    "organization": [
+      "Manipal University Jaipur"
+    ],
+    "email": [
+      "ajay.kumar@jaipur.manipal.edu",
+      "dr.ajaykumarphd@gmail.com"
+    ]
+  },
+  {
+    "sno": 5,
+    "sessionId": "IICTDS.005",
+    "trackId": "5",
+    "topic": "AI in Practice : Deploying ML and DL for Societal and Industrial Transformation",
+    "chairperson": "Dr.Ashima Kukkar",
+    "coChairs": "Ms. Gagandeep kaur",
+    "profile": "",
+    "organization": [
+      "Chitkara University, Rajpura, Mohali"
+    ],
+    "email": [
+      "ashima@chitkara.edu.in",
+      "gagandeep.kaur@chitkara.edu.in"
+    ]
+  },
+  {
+    "sno": 6,
+    "sessionId": "IICTDS.006",
+    "trackId": "6",
+    "topic": "Application of AI in Medical Healthcare",
+    "chairperson": "Dr Sanjay Singla",
+    "coChairs": "",
+    "profile": "",
+    "organization": [
+      "Chandigarh University, Mohali"
+    ],
+    "email": [
+      "Sanjay.e13538@cumail.in"
+    ]
+  },
+  {
+    "sno": 7,
+    "sessionId": "IICTDS.007",
+    "trackId": "7",
+    "topic": "AI for Global Social Good",
+    "chairperson": "Dr Ramesh Narwal",
+    "coChairs": "Dr Nishant Sharma",
+    "profile": "",
+    "organization": [
+      "Jaypee University of Information technology, Solan, Himachal Pradesh"
+    ],
+    "email": [
+      "ramesh@juitsolan.in",
+      "nishant.sharma@juitsolan.in"
+    ]
+  },
+  {
+    "sno": 8,
+    "sessionId": "IICTDS.008",
+    "trackId": "8",
+    "topic": "Human Machine Interface, Graphics and Vision",
+    "chairperson": "Dr. Arvinder Kaur",
+    "coChairs": "Dr. Harpreet Kaur",
+    "profile": "",
+    "organization": [
+      "Chandigarh Engineneering College-CGC, Landran, Mohali",
+      "Department of Computer Science & Engineering, Punjabi University Patiala."
+    ],
+    "email": [
+      "er.arvinderdhillon@gmail.com",
+      "harpreet.ce@pbi.ac.in"
+    ]
+  },
+  {
+    "sno": 9,
+    "sessionId": "IICTDS.009",
+    "trackId": "9",
+    "topic": "Explainable AI and Emerging Applications in Healthcare",
+    "chairperson": "Dr. Sahil Sharma, PhD, AFHEA",
+    "coChairs": "Ms. Ashima Sood",
+    "profile": "",
+    "organization": [
+      "Ulster University, Northern Ireland, United Kingdom"
+    ],
+    "email": [
+      "s.sharma@ulster.ac.uk",
+      "sood-a1@ulster.ac.uk"
+    ]
+  },
+  {
+    "sno": 10,
+    "sessionId": "IICTDS.010",
+    "trackId": "10",
+    "topic": "Blockchain, AI, Security, and Edge Computing for Smart and Pervasive Systems",
+    "chairperson": "Dr. Meenakshi Malhotra",
+    "coChairs": "",
+    "profile": "",
+    "organization": [
+      "Chitkara University"
+    ],
+    "email": [
+      "meenakshi.1319@chitkara.edu.in"
+    ]
+  },
+  {
+    "sno": 11,
+    "sessionId": "IICTDS.011",
+    "trackId": "11",
+    "topic": "Next Generation Artificial Intelligence and Emerging Technologies for Smart and Pervasive Systems (BAES)",
+    "chairperson": "Dr Narender Kumar",
+    "coChairs": "Dr Sunil Kumar",
+    "profile": "",
+    "organization": [
+      "Department of CSE, GJUST Hisar, Haryana",
+      "Department of AI and Data Science, GJUST Hisar, Haryana"
+    ],
+    "email": [
+      "narenderster@gjust.org",
+      "sunilkaushik27@gmail.com"
+    ]
+  },
+  {
+    "sno": 12,
+    "sessionId": "IICTDS.012",
+    "trackId": "12",
+    "topic": "Artificial Intelligence and Data Science",
+    "chairperson": "Dr. Dilip Kumar Choubey",
+    "coChairs": "",
+    "profile": "",
+    "organization": [
+      "Department of Computer Science and Engineering, Indian Institute of Information Technology Bhagalpur, Bihar"
+    ],
+    "email": [
+      "dkchoubey.cse@iiitbh.ac.in"
+    ]
+  },
+  {
+    "sno": 13,
+    "sessionId": "IICTDS.013",
+    "trackId": "13",
+    "topic": "Next-Generation Data Science: Challenges and Opportunities",
+    "chairperson": "Dr. Purushottam Kumar",
+    "coChairs": "Dr. Rajshree Srivastava",
+    "profile": "",
+    "organization": [
+      "Benett University, Greater Noida, Uttar Pradesh",
+      "JSS Academy of Technical Education, Noida, Uttar Pradesh"
+    ],
+    "email": [
+      "dr.purushottam.kmr@gmail.com",
+      "rajshree.srivastava27@gmail.com"
+    ]
+  },
+    {
+    "sno":14,
+    "sessionId":"IICTDS.014",
+    "trackId":"14",
+    "topic":"Emerging Trends in AI and ML-Based Healthcare Recommendation Systems",
+    "chairperson":"Ms. Suman Aggrawal",
+    "coChairs": "",
+    "profile":"",
+    "organization":[
+      "Noida Institute of Engineering and Technology (NIET, Greater Noida)"
+    ],
+    "email":[
+      "sumanaggrawal@gmail.com"
+    ]
+  },
+  {
+    "sno": 15,
+    "sessionId": "IICTDS.015",
+    "trackId": "15",
+    "topic": "Advances in Intelligent Computing: Emerging Techniques and Real-World Applications",
+    "chairperson": "Dr. Sumit Kumar",
+    "coChairs": "Dr. Garima Vijh",
+    "profile": "",
+    "organization": [
+      "Amity University Noida, Uttar Pradesh, India",
+      "G.L. Bajaj Institute of Technology and Management, Greater Noida , Uttar Pradesh"
+    ],
+    "email": [
+      "sumitkumarbsr19@gmail.com",
+      "garimavijh672@gmail.com"
+    ]
+  }
+]

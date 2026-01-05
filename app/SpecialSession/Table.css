@@ -1,0 +1,325 @@
+.session-wrapper {
+  width: 100%;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.session-table {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 1100px;
+  border-collapse: collapse;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.session-table th {
+  background-color: #b20010;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding: 12px;
+}
+
+.session-table td {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  vertical-align: top;
+  text-align: center;
+}
+
+/* Inner details table */
+.session-inner {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.session-inner td {
+  border: none;
+  padding: 6px 4px;
+  text-align: left;
+}
+
+.session-label {
+  width: 35%;
+  font-weight: bold;
+  color: #333;
+}
+
+.session-value {
+  width: 65%;
+  color: #444;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Lists for multiple items */
+.session-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.session-list-item {
+  margin: 0 0 4px 0;
+  padding: 0;
+  line-height: 1.4;
+}
+
+.session-list-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Add bullet points for multiple items */
+.session-list-item:before {
+  content: "• ";
+  color: #b20010;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+/* Single item in list - no bullet */
+.session-list:has(.session-list-item:only-child) .session-list-item:before {
+  content: "";
+  margin-right: 0;
+}
+
+/* Links */
+.session-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.session-link:hover {
+  text-decoration: underline;
+}
+
+/* External link indicator for profiles */
+.session-link[target="_blank"]:after {
+  content: " ↗";
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+}
+
+/* Zebra striping for readability */
+.session-table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .session-wrapper {
+    padding: 15px 5px;
+  }
+  
+  .session-table {
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  
+  .session-table th {
+    font-size: 14px;
+    padding: 8px 4px;
+  }
+  
+  .session-table td {
+    padding: 6px 4px;
+  }
+  
+  .session-inner td {
+    padding: 4px 2px;
+  }
+  
+  .session-label {
+    width: 40%;
+    font-size: 13px;
+  }
+  
+  .session-value {
+    width: 60%;
+    font-size: 13px;
+  }
+  
+  .session-list-item {
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .session-wrapper {
+    padding: 10px 5px;
+    overflow-x: visible;
+  }
+  
+  /* Hide the table headers on mobile */
+  .session-table thead {
+    display: none;
+  }
+  
+  .session-table,
+  .session-table tbody,
+  .session-table tr,
+  .session-table td {
+    display: block;
+  }
+  
+  .session-table tr {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .session-table td {
+    border: none;
+    padding: 0;
+    text-align: left;
+    position: relative;
+  }
+  
+  /* Add labels for mobile view */
+  .session-table td:first-child:before {
+    content: "S.No: ";
+    font-weight: bold;
+    color: #b20010;
+  }
+  
+  .session-table td:nth-child(2):before {
+    content: "Session ID: ";
+    font-weight: bold;
+    color: #b20010;
+  }
+  
+  .session-table td:first-child,
+  .session-table td:nth-child(2) {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .session-table td:last-child {
+    margin-top: 10px;
+  }
+  
+  /* Improve inner table on mobile */
+  .session-inner {
+    margin-top: 8px;
+  }
+  
+  .session-inner tr {
+    border: none;
+    margin-bottom: 8px;
+    padding: 0;
+    box-shadow: none;
+    background: transparent;
+  }
+  
+  .session-label {
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 2px;
+  }
+  
+  .session-value {
+    width: 100%;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .session-link {
+    font-size: 13px;
+    word-break: break-all;
+  }
+  
+  /* Mobile list styling */
+  .session-list-item {
+    font-size: 12px;
+    margin-bottom: 4px;
+    line-height: 1.3;
+  }
+  
+  .session-list-item:before {
+    font-size: 12px;
+  }
+  
+  /* External link indicator smaller on mobile */
+  .session-link[target="_blank"]:after {
+    font-size: 10px;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 320px) {
+  .session-wrapper {
+    padding: 8px 3px;
+  }
+  
+  .session-table tr {
+    margin-bottom: 12px;
+    padding: 8px;
+  }
+  
+  .session-label {
+    font-size: 11px;
+  }
+  
+  .session-value {
+    font-size: 12px;
+  }
+  
+  .session-link {
+    font-size: 12px;
+  }
+  
+  .session-list-item {
+    font-size: 11px;
+  }
+  
+  .session-list-item:before {
+    font-size: 10px;
+    margin-right: 2px;
+  }
+}
+
+/* Print styles */
+@media print {
+  .session-wrapper {
+    padding: 0;
+  }
+  
+  .session-table {
+    box-shadow: none;
+    border: 1px solid #000;
+  }
+  
+  .session-table th {
+    background-color: #f0f0f0 !important;
+    color: #000 !important;
+  }
+  
+  .session-link {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  .session-link[target="_blank"]:after {
+    content: " (" attr(href) ")";
+    font-size: 10px;
+    color: #666;
+  }
+}

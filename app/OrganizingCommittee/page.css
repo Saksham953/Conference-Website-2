@@ -1,0 +1,83 @@
+/* ================= ORGANIZING COMMITTEE ONLY ================= */
+
+.oc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  margin-bottom: 28px;
+}
+
+.oc-table th {
+  background-color: #e3f0ff;
+  font-weight: 600;
+  padding: 10px 14px;
+  border: 1px solid #c7d5f3;
+  text-align: left;
+}
+
+.oc-table td {
+  padding: 10px 14px;
+  border: 1px solid #d4dceb;
+  vertical-align: top;
+}
+
+.oc-table tbody tr:nth-child(odd) {
+  background-color: #f7faff;
+}
+
+/* Section titles */
+.oc-section-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 40px 0 14px;
+  color: #0e1a33;
+  border-left: 5px solid #4c78dd;
+  padding-left: 12px;
+}
+
+/* ================= MOBILE RESPONSIVE (REAL FIX) ================= */
+
+@media (max-width: 768px) {
+
+  /* Let body expand naturally */
+  .body {
+    width: 90vw;
+  }
+
+  .oc-table {
+    border: none;
+  }
+
+  .oc-table thead {
+    display: none;
+  }
+
+  .oc-table tr {
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #d4dceb;
+    border-radius: 8px;
+    padding: 12px;
+    background: #ffffff;
+  }
+
+  .oc-table td {
+    display: block;
+    border: none;
+    padding: 6px 0;
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .oc-table td::before {
+    content: attr(data-label);
+    display: block;
+    font-weight: 600;
+    color: #091b8f;
+    margin-bottom: 4px;
+  }
+
+  .oc-table td div {
+    white-space: normal;
+  }
+}
