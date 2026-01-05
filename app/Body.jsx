@@ -34,7 +34,7 @@ export default function Hero() {
       Conference Schedule
     </div>
     <div className="content">
-      <h2>Here is the Attachment for: &nbsp;
+      <h2>Here is the Attachment for:&nbsp;
         <Link
         href=""
         className="schedule-link">
@@ -43,7 +43,7 @@ export default function Hero() {
       </h2>
     </div>
         <div className="content">
-      <h2>Here is the Attachment for: &nbsp;
+      <h2>Here is the Attachment for:&nbsp;
         <Link
         href=""
         className="schedule-link">
