@@ -5,9 +5,9 @@ export default function Hero() {
         <div className="hero">
             <div className="title">
                 <div className="bold_title">
-                    Second International Conference on Computational
+                    2<sup>nd</sup> International Conference on Computational
                     Techniques in Data Science
-                    IICTDS 2026
+                    (IICTDS 2026)
                 </div>
 
                 <div className="small_title">
